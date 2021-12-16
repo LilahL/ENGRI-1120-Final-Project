@@ -553,8 +553,8 @@ discount_rate = 0.10
 # ╔═╡ 31888fd8-8735-40c2-a2c6-4825ed658eb5
 # Setup the cash flow array -
 # we pay in year 1: $282020K (out, -ve)
-# we save in years 2: 334469.44K (in,+ve)
-# we save in years 3, 4,..., 10: 499729.44K (in,+ve)
+# we save in year 1: 334469.44K (in,+ve)
+# we save in years 2, 4,..., 10: 499729.44K (in,+ve)
 CF_array = [-282020.0, 334469.44, 499729.44, 499729.44, 499729.44, 499729.44, 499729.44, 499729.44, 499729.44, 499729.44, 499729.44]
 
 # ╔═╡ e39ee55b-f009-4cc2-b50f-4742fa90e3dd
@@ -639,6 +639,14 @@ Sigma Aldrich:
 Uses for Isoprene:
 
 	http://polymerdatabase.com/Polymer%20Brands/Isoprene.html
+
+NPV Template:
+
+	notebooks/Example-NPV.jl
+
+Project Template:
+
+	project/ENGRI-1120-Project-Parallel-Template.jl
 """
 
 # ╔═╡ cef22b5d-be5d-49f2-987f-77cf1b9379b9
@@ -1737,9 +1745,9 @@ version = "0.9.1+5"
 # ╠═b7553d0b-07ae-46c3-8952-e591638a5df9
 # ╟─aa2d2284-d093-48de-a2b3-97d702832836
 # ╟─e7a28f0c-d8f4-4ed2-b8f8-c74b608dad82
-# ╟─9072bcd8-7aab-4484-acbf-bda7838d716c
-# ╟─26d9a253-618f-41d7-bdc8-7f3473d3b8b2
-# ╟─31888fd8-8735-40c2-a2c6-4825ed658eb5
+# ╠═9072bcd8-7aab-4484-acbf-bda7838d716c
+# ╠═26d9a253-618f-41d7-bdc8-7f3473d3b8b2
+# ╠═31888fd8-8735-40c2-a2c6-4825ed658eb5
 # ╟─e39ee55b-f009-4cc2-b50f-4742fa90e3dd
 # ╟─8ba5e20b-38b8-43ad-9fb3-29aca436aa62
 # ╟─b2e5d400-5224-452e-a706-c75087576842
